@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Rifkyy Shopp - Fashion Shopping</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="data:image/png;base64,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" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+            <div class="container">
+                <a class="navbar-brand" href="#page-top"><img src="assets/img/navbar-logo.svg" alt="..." /></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="fas fa-bars ms-1"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
+                        <li class="nav-item"><a class="nav-link" href="#services">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#portfolio">Produk</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#team">Team</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Masthead-->
+        <header class="masthead">
+            <div class="container">
+                <div class="masthead-subheading">Welcome To Rifkyy Shopp!</div>
+                <div class="masthead-heading text-uppercase">Happy Shopping</div>
+                <a class="btn btn-primary btn-xl text-uppercase" href="#services">HOME</a>
+            </div>
+        </header>
+        <!-- Services-->
+        <section class="page-section" id="services">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Rifkyy Shopp</h2>
+                    <h3 class="section-subheading text-muted">Pusatnya Fashion Pria</h3>
+                </div>
+                <div class="row text-center">
+                    <div class="col-md-4">
+                        <span class="fa-stack fa-4x">
+                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                            <i class="fas fa-shopping-cart fa-stack-1x fa-inverse"></i>
+                        </span>
+                        <h4 class="my-3">E-Commerce</h4>
+                        <p class="text-muted">Rifkyy Shopp adalah toko fashion pria yang menawarkan berbagai pilihan pakaian dan aksesori trendy dengan harga terjangkau.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <span class="fa-stack fa-4x">
+                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                            <i class="fas fa-laptop fa-stack-1x fa-inverse"></i>
+                        </span>
+                        <h4 class="my-3">Design Modern</h4>
+                        <p class="text-muted">Menyediakan berbagai produk mulai dari kaos, kemeja, celana, jaket, hingga sepatu dan tas yang cocok untuk berbagai gaya hidup modern</p>
+                    </div>
+                    <div class="col-md-4">
+                        <span class="fa-stack fa-4x">
+                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                            <i class="fas fa-lock fa-stack-1x fa-inverse"></i>
+                        </span>
+                        <h4 class="my-3">Aman & Terpercaya</h4>
+                        <p class="text-muted">Dengan semua metode pembayaran dan alamat yang akan aman tidak akan terbajak</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Portfolio Grid-->
+        <section class="page-section bg-light" id="portfolio">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Produk</h2>
+                    <h3 class="section-subheading text-muted">Modern & Terjangkau</h3>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <!-- Portfolio item 1-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="https://i.pinimg.com/736x/93/51/24/93512447ec948e5f48a92b6600be000a.jpg" alt="..." />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Kaos LEVI/ T-shirt casual</div>
+                                <div class="portfolio-caption-subheading text-muted">Rp.80.000,-</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <!-- Portfolio item 2-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="https://i.pinimg.com/736x/f6/e1/12/f6e11217e0901d39eea3d1514a747100.jpg" alt="..." />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Kemeja Lengan Pendek</div>
+                                <div class="portfolio-caption-subheading text-muted">Rp.250.000,-</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <!-- Portfolio item 3-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="https://i.pinimg.com/736x/79/56/1f/79561fce14e808db5b4ec73e990166dd.jpg" alt="..." />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">JINISO - Denim Loose Cargo Jeans Pria 405</div>
+                                <div class="portfolio-caption-subheading text-muted">Rp.300.000,-</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
+                        <!-- Portfolio item 4-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="https://wa.me/623194247856">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="https://i.pinimg.com/736x/e0/33/48/e03348f4c91ef47bfdcf8e7079727ffb.jpg" alt="..." />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">JAKET DENIM PRIA FAMOUS</div>
+                                <div class="portfolio-caption-subheading text-muted">Rp.900.000,-</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4 mb-sm-0">
+                        <!-- Portfolio item 5-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="https://i.pinimg.com/736x/b6/f3/a4/b6f3a4365d1285d8cd6ca3c4f82f866d.jpg" alt="..." />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Tas SlingBag Distro</div>
+                                <div class="portfolio-caption-subheading text-muted">Rp.100.000,-</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <!-- Portfolio item 6-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="https://i.pinimg.com/736x/47/f4/71/47f471421802d0de0fc130a461733581.jpg" alt="..." />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Adidas Samba</div>
+                                <div class="portfolio-caption-subheading text-muted">Rp.2.500.000,-</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+                            </h4>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <!-- Team-->
+        <section class="page-section bg-light" id="team">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Bussines </h2>
+                    <h3 class="section-subheading text-muted">Cara Metode Memesan di Rifkyy Shopp</h3>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="team-member">
+                            <img class="mx-auto rounded-circle" src="data:image/jpeg;base64,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" alt="..." />
+                            <h4>WhatsApp</h4>
+                            <p class="text-muted">Metode Chat Admin</p>
+                            <a class="btn btn-dark btn-social mx-2" href="https://wa.me/623194247856" aria-label="Rifkyy Shopp WhatsApp Profile"><i class="fab fa-whatsapp"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="team-member">
+                            <img class="mx-auto rounded-circle" src="data:image/png;base64,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" alt="..." />
+                            <h4>Google Forms</h4>
+                            <p class="text-muted">Metode Mengisi Forms</p>
+                            <a class="btn btn-dark btn-social mx-2" href="https://docs.google.com/forms/d/e/1FAIpQLSc_obOPK2VXH_O5L1c2htNJV-75zCTzvr-2Rya059H1ykG7MA/viewform?usp=header" aria-label="Rifkyy Shopp Google Profile"><i class="fab fa-google"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="team-member">
+                            <img class="mx-auto rounded-circle" src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAMAAzAMBEQACEQEDEQH/xAAbAAABBQEBAAAAAAAAAAAAAAAEAAEDBgcFAv/EAEsQAAEDAgIECAoIBAUDBQEAAAEAAgMEEQUhBhIxUQcTIkFhcYGRFDIzNlJVkqGxsxdCYnKTssHRI1N0dUNERYPwY2SCJjVzo+EV/8QAGgEAAgMBAQAAAAAAAAAAAAAAAAMCBAUBBv/EADcRAAIBAwEFBAgFBAMAAAAAAAABAgMEESEFEjFBURMUMjMiI1JxgZGx8BU0QnKhJGHB0QYWQ//aAAwDAQACEQMRAD8A2PVdzA9yAPcPJlGsCOk9SACddvpDvQANNynAt5QttGaAPGqdx7kAFMc0MF3AZb0ANM4GNwaQTbLNAAuqfRPcgCans0uByJA2oAm12+kO9AAsou9zh4t9qABJcRoKZw8Ir6aMgjJ0zQe666oyfBHcMc6S4ID/AO60n4gUuzn0DA0mPYROGtjxOjJvsMzQjs59DhNFJHNnBIyQf9NwcPco4a4gGQODWWJANzkuAey9vO4d6AAw11hyTs3IAkh5LxfLrQATrt9Id6AB5+U8EZi3MgCKzh9U9yAC2OAY25Ay3oAaVzTG4BwJ3AoAG1TfxXdyAFqu3HuQAcgCKp8l2hAAiACaXxHdaAJ0AAu8Y9Z+KAHi8o3rQAVI9sbS57g1oGZJtZALV4KljenGE0buLgLqyZt7ti8XtcU6FCUh8beUtXoU7ENOcZqeTTGGhZ/0m67/AGnfoArMbeC46jlbxRwKuvrqw61XW1M9+aSVxHdewT1CK4I7uIFLW7gpoW0Nqjcu5FtDFotsCkiDQzCYTrRF0bt7HEFGj4oU0dai0ox2hLfB8Tne1v1J7StPtZ9xCXK3pS5HM4LPhnCPyg3F6EAc8tNn3tP6FVp2ONYM7kv2EY1h2MR69BVRy72g2cOsbVTnTnB4kiQZUEcV2qAAyACKXxD1oAnOxAAL/HPWfigB4vKt60AGjYgBIAg8Ibud7kAeXv44ajbg350AN4O/e33oAdjuIu1+ZOfJQB6NQ22x3uQBHxT3coFtjmMygDg6Q6T0OAHVcfCau3Jgids+8eYJsKTkWKNtOrrwRnGNaRYnjbyauYtivdsEfJYP37VbhTjA0oUIU+COTbds6k1M7JCXSDQy6KaGIQLaEpIW0eSF0W0Mui2jyQpIU0MpEMHuGWSnlbNBJJFK03a9h1SD1qLSejR3Jd9H+EOeNrKXHmmaO4Aqoxym/ebzjpGfQqNW0/VTOpmiUro6uBk9NNFLE8Xa9jrgqi008MmTsdxIs8Ekm/J//VwD14Q30X9wQBHxLnZgixzF0AOInRHXdqkDcgD34Q2+x1kALwhu53uQANcb0ASweVCAC0AC1Hji3ooAiG3I9BzQBTdLdNeI1qDBpAZWjVmnGYYecN3npTYQzxNO1sG0p1OHQztxc5znPcXPcbuc43JPWrSZqbqWiFsTELcRXXRbQkEGhlLItoZAtxGsui2hKSFNHkiy6LaGXRbR5IUsi2hl3JAZBw7GjmkVdo/Va9K/Xp3OvLTuPJf0jcelJrUI1FrxOpmuYVjNJjlIysopA5p5L2HxmO3ELJqU3TlhjE8hm7pUQDIvJs+6EANP5J3UgAQ5HPJADXG8IAL4hu93egDxIwRN123uEAeOOfvHcgD0xvHAuecwbZIAoWnek4j4zCsLlIf4tRM0+L9kHfvKlFGxs+xz62a9xQAA0AAW6AnJmxJCTExbQxU0xbQ3Xkp5Qto9LotoaxXUxTwKx3LpBoS7kW0MRuXUxbQxG9STFyR5IXcimhl3ItxPJC6hbQ2xSICQcD8DxapwOvbWUhvkGyRHxZG7j+hS6tJVFhnUzasEr6PGsPiraR5cx45QJzaecHpWPODhLDGBXGuaS0bAbBRAcSOkcGOtY7UASCBgG13egB+Ibvd3oAlQBDUeS7UADIAr2mekRwTDOIpnAV1Tfi/sN53fsjgaGz7TvE8vwoykHeSek7T0ldTPUNdBwppi2hJiYto6GDYJX41KW0EOsxps+V2TG9u9Sc1Eq169OivSZcaXgzu0Oq8TId6MUQ+JzUe8PkjMntH2YhP0aUPrCp9lqO8yFO+l7KF9GlD6wqfZajvMjjvZ9BvozofWFT7DV3vMiPe5j/RnQ+sar2Wo71Ij3qQ30Z0PrGp9lqO9SOd4kL6MqH1jU+y1Hepke2YvoyovWVT7DV3vcyLqNnh/BjRkcjE6gO5iY2ld73Poc3zhY1we4pQxmWhkZWsGZa0ar+45FOhdxb1I5Ke5pD3MLS1zXFrmuFi07iOYq4mnwItHk5LpAQ2oOHe0N0gfo/irXPcTRTuDahm7c8DePgkXFHtI5XEkmbBrtfZ7XazXcppByIOYWQyZ7iP8VvWgAwIAdAACAPcHlRf/AJkgCSsqIqSlmqZyGxRNL3OPMAglCLnJRjxZhuNYnNi+JzVs9wXnkN9FvMP+bykuWWe3trZW9JQQFdTTGNDtTExbidjRjA3Y/ibabWc2CMa88jciBuHSVLJQva6t6eeb4GxUtPTYdRMggjZBBE3ktGQaAo8Ty8pSqSy9Wys4nwh4VRScVSwz1zhkXQ2DR2ki/ZdSjDJdp7OqzWXhAP0nQeqKj8ViYqD6jPwyXtIX0nQeqKj8Vi6rd9SP4dL2kL6ToPVFR+Kxd7s+pF2D9oX0mweqKj8ViO7PqR7k/aF9J0Hqio/FYu91fU47OXUX0nQeqKj8ViO6vqR7rLqL6ToPVFR+K1HdX1I93fUdnCdSl4EmE1YHOWPYSOy4R3WXJkXQaLRguP4djcRkoJg5zfHY7JzesJE6coPDFSi0cDT/AEXjxKkkxKjjtXwsu8N/xmDmPSOZOt6zg92XADKdovzLUyccTyQui2hjsKMnDUeC/HfCaR+E1Lry041oL88e7sWbd0t2W8uDJxZeZx/CdbLJUyQKgBIAk4l/olADsa6N2s4ENHOgCkcKWMcVQ0+F07jrVJ15f/jadnafgUqpPCwb2wrVVKjqvhH6szcHvSUz1LiOmJinEfWtmmJi2jVuDCibDo8aq3LqZnknoadUfAqeTym1p71xu9Dn8KGLyQ8RhEEhbxrONntkSy9mjtIPcpRG7Kt1Juq1wM7tu5k1M2Wh1NMW4jWTExbQrKaFtDKWgtoVl0W0JdFuJJTU81XUx01LE6WaV2qxjdp/53dK45KKyxU8RWWWKp0Cx2ClM4ZTSuAuYY5uX7wAe9KVzBvBW7WD0OBhuIVGFV0dbSucJIjm0jNw52n9k+cVOODsopo3ijmjq6SGpiOtHNG17TvBFwsprDwVGsPBh+k9E2g0ixClYLMZMS0dDgHD3FatGW9TRPGUcohOQto87FJC8BmD4k/CMUp8QjuTC+7gPrM+sO74KFSG/HdZ1PBvAqI6ina6F2uJWhzCNjgcwViYabTJjcS/0fegBcS/0SgAtAEM/idqAMb0tqP/AOljtVOHazGu4uPoa3L43Pas+pPM2e32bT7C2jHm9TgPYWldUjTzlDApiZBxPV0xMVJGycHfmdh/+58xydHgeM2osXk/vkUrhS864/6CL5kq6nqa2yFm2f7v8IqammaDQkxMW0MTYEnYNvQppkGjqYVo9i+LDWoaKR0f82T+HGeonb2XUu0SKdW4pUvE/kd6Lg4xUtBlraSN3ogOd78lzvESnK/p8osErtAsepml8UdPVMHNDJZ3cQPipqvBgrulLjoVuaKWCZ0NRDJDK3bHIwtcOw5pqafAct2WsWWbg3mp4NJh4Q5rXywOZCXH61wbDpIB7kq41hoVbqL3NDWCQBc9ao4M3iYXpBNT1OO4jPRkGnknc6MjYdlyOs3PatSllRWS/GL3Vk2LRDLRLBLer4PltWfV8yXvZTqeNmWaf+eOJ/ei+UxX7by0TgsxK8QrBxxGIUhTR52ELuRbRrfBrXms0egge/Wko3mE39Ha33G3Ysm6hu1NCaLkBkq50dAA3hLvRCABsSqzDh9TK4W1I3OB6bZKM3iLY2jHfqRiY/LGTyj4xvfpWQme4i8cPcCSxX5kyMh0ZAb4y05JyY/ihgUxMhKJs3B55nYf/ufMcrEPCeI2r+cn98kUrhS86o/6CP8APIhvU2NjL+lf7n9EVK6kmabiImwJdkBtO5MTEtGhaG6Fx8XFiGMx6z3WdFTOGTelw5z0IcjBvb9t9nSL5PNT0cBkmkjhhYNriGgBQxkyVGU3pqzgzab6Pxyanhhk6WRuIUuzky0rGu1ndDsN0iwnFX8XRVsb5P5Z5Lu4ocJLkJnQqU/Ej1j2CUON0phrYgXDxJQLOYd4KIzcNUchVlTeUZFjuD1WBYkaaoJt48MzctYbxuIV6FRTRq05xqxyeajHsYqabweoxSofCRYsuBcdYF1JU45zgh2ME84OblsGy2QTQaNw0Q808F/t8Hy2rMq+ZL3mZV8b95lun3njif3ovlMV23fq0Ppr0EV9WMg0MVIU4jLuRbRdOCqq4rE6ymztJGHtH2mmx9xVO8j6KZFI07whw+qO9Z50XhLvRCAIUMDlaUP4rA6gH6+q3vKr3bxSZd2fHNzH+2TPZY9iyos9WmCSRpiYyMgSWK6YpD4yApIy3MZJsZDk8my8Hfmdh/8AufMcrtPwo8Ptb87U++SKTwp+dUf9BH+eRRm/SNnYi/pX+5/RFSuupmq0WPQLB24tjrXTM1qekHGvyyc69mt+J7FNGVtSv2FH0eMjVcWxCnwrDp62pyjhbcgbXHmA6SV08zSpSq1FCPFmM47jFXjtX4RWvJaPJwg8iMdA39KbE9PRtYUIYic9NTJyiIgZdByIyI6lPPUXKPI0bQDSqWrnGE4nJxk+reCd219trT025+fNJq08ekjGvbVQ9OB3tNcGGMYHMyNo8KgBlgPPrDm7Rkl0p7sipb1OzqJ8jGwQ4XHPmtHJsNCP6Loto27RDzTwT+3wfLas6r45e8ya3mS97Mu0988cS+9H8piu2/lIs0V6tFfTzrQxXRbQ1l0U0d3QSbidKqMfzdaPvaT+iVca0mQwa6NmSyiI6ADDGy3ijuQBwNM2tGEta0AXlbsCpXz9V8TQ2b53wKJIxZaZ6KLBpI0zI1MFkjU0xkWCyRJkXqPizV+D4W0QoB0y/MctGh5aPHbV/OT+H0RR+FQ/+q4/6CL88iXN+sNzYS/pX+5/RFSQma8kadwU07Y8Gq6j681SQepoAA+PerEeB5Tbk811HoiHhWqnCnoaRps173SO6bZD4robGppzlN8jOlNM3WhKaYtodTTFtEtFUPo62CqiNnwyNeOwqecoRVhvQaN6jLXsa4bHNvZUzzD00MKxeBtLi9dTs8WOoeB0C97e9aMHmKN6n6VNMDO3sUzrRt+h/mlgn9vg+W1Z9XzJe8xa/my97Mu0988cS+9H8piuW/lot0F6tHATybQy6KaGK6LaOjoy7U0kwt45qlvvuP1UK3lsXJaG6CNmdmN7lkCR+LZ6I7l0BcYz0296AOFpbqvwttiDaVqo3/lF7Z3nfApb2LITN9MHkYmJjUwaSNTTGKQLJHlsTE9UNUjUNAxbRWiHTL8xy07fykeU2o83k/h9EUPhUZraUxkc1BH+eRKq6VD0GwPysv3P6Ip4O/ahM2JRyajwU1LZMGq6fY+Gpv2OAN/j3KzTeh5HbtNxrxl1RBwsUzzT0FW0EsY90bui+z4KTO7EqLfnDqZ0NxXEz0DQ6YmLaEppi2iaipn1dbBTRgl8sjWADpIU86CKz3IOTN7jaI42t5mi11XPJ8TCMYqG1eL19QzxZKh5B3jWIB9yvweIo9FShu04r+wJ+ymgaNv0Q80sE/t8Hy2qhV8cveYVfzZe9mXae+eOJ9cXymK5Q8tF+3Xql98zgp5NoYhdFtDFdQto6WjDdbSTDG76hvuuVCr4GJmtDcxJGPrt71korC4xnpt710ALJAAWNxiTDZeizh3qpfLNBlmzlu1kVF7FgpnoUwd7ExMmmDyMTExsWDPjTExiZo+hAtoxRjpk+Y5a1r5MTy+0vzc/vkUnhLZraUNNsvAYvzyKvcvFT4G9sN4tX+5/RFNmitsCipG3F5O7oDjIwfHmNndq01W3iZL/AFXX5LviO1WKU9TM2xad4t9+PGJrOMYfT4th09FVA8VK2xI2tPMR0gqyzx9CrKhUVSPFGL47g1ZgNaaetYdU+SmA5Eg5rHmPQl8D2VtdU7qmnF69ADbsUkx0lgWy1+c2A3ncppipJYy+Bo+gOistHM3FsTiMc2qRTwu2xg7XHp6Nyk5aHndo3kZ+rp8Du6a4yMHwOZ0bwKqdpigHOHEeNbo2rkFqVLOg6tVLktTG7WyGwK0mehaH3JiYto27RDzTwT+3wfLaqVTxv3nnrjzp+9/Uy/T3zxxLrj+UxW6HgNC2XqV98zgWTxrQl3ItoYroto7mg8HHaUUd/wDC1pO5pH6pVd4psRVXomt5bNyzSmLJAE/g7vSCAIammJp5Gkg6zS1Lqw34OJOnLdkmUx0dhmF5fgz0MZcyCRimmNTBpGJiYxSBnszTExiZoOho1dHKQdMn53LZtfJieb2g83MvvkU7hFZraRNP/ZR/nkVW6834L6s2tjP+mf7v8IqcsaUmbMZAU0NwcgnRkWIy6l80L02YyOLDcbl1XNs2KpdsI3OPMelW4VE+J5namyXF9tQWnNdC/wA8MFZAY5445oXjNrgHAhO4nn4ylTlmLwzhTaD6PSyF3gWpfmZI4DuuuYLsdp3UV4g/DNHsIwt+vRUUUclrcYeU/vK7gRVu61bxybHx3HKDBKfjKyUBxB1Im+M89AXSNvbTryxBfEyHHMYqMcrzV1J1QBqxRA5Rt3de9TjoemoW0beG5H4s5yYmMaEeZMTFtG36IeaeC/0EHy2qrPxM8zc+dP3v6mXae+eGJ9cXymK3Q8Bq2i9RH4nBunjWhrIQtoZSyLaLpwYUhlxOrqSLBkQY07i43/RVrp6JFO50SRpQp387hdUimLwd3pBABKAIajyfaEAVPEoOKq5G25JOs3qK8zdw7Os0bdtPeppgEjEhMtJg72JiYxMHfHkmRYyL1L1onlgFKOl/53Lcs3mhE87ffmJffIqenzNbH2H/ALRn53qpeaVfh/k2Njv1D/d/hFWkZ0JCZrxYJLH0JiY6MgOaG902Mh8ZsLwrSDGMF5FBXSNj/lScuMdTTs7LJ8ajRWr7PtbjWcNeq0ZYYuEnF2MAko6OR3pAub7s01VDLlsChnSbX8gtdp7j9WHNilgpGH+THdw7ST8FLfJw2NbQeXl+8rkk0s8rpZ5ZJZXbZJHlzj2nNSTLypxgsR0Q19+ZU0yDQlNMW0IpiYtxNv0R808F/oIPltSZcWeWuvPn739TLtPfPDE+uMf/AFMVmi8QNaz1oR+JwE9Me0Pe66LaFsztddQto1Tg6oDR4DDK5tpKt5mP3djfcL9qo15ZmZVxLemXBJEDoAD46T0vcEAemOMjw15uNqAOfjtIOKZMxviZO6lk7Uo70VUXIu2VTEnF8zgPaL5bFipmomQPYppjEweRimmMTLXolMHYaYeeJ5y6Cb/utzZ880t3oYm0Y4rb3U52nGHvlEVdG3W1G6kgG0C9we+/euXtJvE0WNmXCi3Tb4lLfHfcs9PJvxkDSRpiY1SBZYjuU0xsZAU0O1NjIfGSBjdpsU5MnxPQKmmLaHCYmLaHuppimh72U0xbQVhtBUYpXxUVK0mWQ2vbJjedx6AmZK9eoqNNzlobpTQspKSGnjAEcMbY29AAsFDizyEpOUsvmYppHWNxDHq+qYbtfMdU7wBqj8qs0+GD0ltTcKMUzmpqZNxGG1TTFNBmEYe/FsRgoWA/xnWc4fVZ9Y9y5KW6ssTVkoRbZuDYI6eBrYW6jYmBrAOYDILOzkw286nnjpL+N7kHBcdJ6XuCAPFj0IA9w5SAlAE8rGyRuY43aRYhQnBSjus6m08oqtVA6mndE8DLxTvC8tXoypVHFm1SqKpBSQO5gSsjkweRimmTTJMMrHYdV8aAXMIs9o5wrdtXdGWeTFXNHtoY5oukUkVTCJGOD4njLdZegjJTjlcDBknB4ejOHXaI0FS4vifJTkm5EdiO4hVp2cJvK0L9HadWmsPUCdoNTn/Pz+w1R7jHqWFtip7CInaA07v9RqPw2/su9zj1JLbVRfoRE7g6p3f6nUfhs/ZTVolzJrbtRfoRC/gxpX7cVqvYZ+yl3dLmMX/Iaq/81/P+zz9F9KNmLVf4bP2UlRXUH/yGq/0L7+IvoxpvW9X+Gz9lJU0uZH8fqP8AQvv4i+jCn5sYqvw2fspKKIvbtT2F/P8As9s4MaUH+Ji1YW/ZYwH8qkQltuo/0L+f9lpwbAMOwWIx0EGqXeNITdzusrpl17mpXeajOBp3pRHQUz8Mo5NatlbZ5b/hN5yek8wXUXLCylVlvy8KMvsBYcwTUzfaEmJi2hZDM7OfqTExe6aVwaYIaelfilS20lQNWEHaI9/aq9ee88GJfVlKW4uRdpvJOsdoSCiC7dmzpQAs+hAB6AIqjKLtCABUAD11H4VTF0Y/ixnLpG5UL627aGVxRZtq3Zyw+DODv67WXnGsPDNbOTy5uS7kkmDyMU0yaY9JV1NDJrUzyL7WHNvcrVG4qUvCRqUYVl6SOtHpU5oAnpCXfYd+hWhHaPWJSezG/DLQd2l0I/yc3tBMW0I9Di2VJ8/4IzppCP8AIze0FJX0ehJbIn7X8MidpzAP8hN7YXe+roS/Bp+1/DI3afUzf9Pn9sKSu10JLYk3+pfJkbuEWmbtw2oPU9qkrlPkSWwpv9S+RC7hMoxtwyq9tqkq66E/+v1HwkvkMOE6j9WVXttUu1Qf9fqr9S+TE7hNpLHVwuoJ6ZGhd7REfwKp7aOHi+n+KV0boqONlEx31mkl/fsClvFuhsanTe9UeWVVzi5znOJcXG5c7Mk7yVJM0d1JYS0EmJi2hKaYto7miGAPx7Eg2QEUUJDp3W2/Y6z8F2U8IoXtdUYacWayGtaNVrQ1reSABkAFXPO8dT3F5VnWgAwIAdAEXHs6UAeHvEo1G3v0hAHjiH9HegD0w8SC1+0m+S5gDlYtRh5NRA03td7f1WRfWOfWQL1rcY9CRyNoWLjqaJ5c267kkmQSR57FNMmmDyM6FNMmmgZ8fQmJk0wd8fQmJjUwd7FNMYmCyx9CYmNTBZYuhTTGpgk0N+bYmxZYjMDcwtKapDM5QmlMTIuJ6TExTQ4U0xbQ90xMU0H4LhNTjNa2lpRltklOyNu8/spplS6rQoQ35fI2LBqKjwigjo6Rha1ozdbNxPOVFvJ5WtWlWnvyCuKc4lw2OzGa4LEI3RuD3WsMzmgCUTstz9yAH8IZ09yABUAe6fyo/wCcyADEAC1Pjj7qAIkaABV2FF7ePpgNYtBczf1LHvLDOZ0uPQu0LrHozOPsuCCCNoPMsV5Tw+JpJ51R4c26EySZC9immSTBnsTExiYPIxMTGJg72KaYxMGkjzU0xqYNJGmJjFIFljTExsZAcsSZGQ6MgR7C0pyY5PIwKYmRcT0ppi2jr6O4BW4/UalM3UgabSVDhyW9W89CbFGde3lO2jr4uhq2F4RSYJSNpKNuqLaz3nxpHbyVM8nXr1K89+bDECQyLybPuhADT+Rd1IAEQAkAEeDt9J3uQAzmCLltJ7UAefCHfZ7igB2N47lPNiMuSgD14O221yAPHHObllllsQAJVUkda4awDJPTaPiqVxZU6y10fUfSryp+449VRT0rjxjeQNjxsKw69rUovVGjTrwqf2YK4XVbJYRC9immTTB5GKaZNMHexMTGpg8jExMYmDSMU0xiYNJGmZGRYLLGmRY6MgSWLJMUh0ZAoppZZhHTxPlkcbBjG3J7E6DzwGSqwhHM3hF10f4P5pAypx3+FHtFKw8p33iNg6B7tiswp82eevdtRWYW/wAzQKVrKOnZDSwxRwsFmsYLWTjzc5SnLelqwhjeP5TsiMskET3xDfSd7kARiZzLtys3LNAC4x0vINgHZGwQB7EDbeM5AC8Hb6TvcgCdAENT5LtCABUAE0viO60AToABd4zus/FADxeUb1oALcA8EEXBXGk9GBy63DKdxBY3i3G+bf2VCts6lU1WjLNO6qQ04nMnwudmbC2QbwbHuWdU2bWh4dS7C8pvjoAT000YvJE9o+00hVnSqR4plmNaD5gcjLbVHI+LzwB3sU1IagaRgTFJDEQOic48hpcfsi5TUm+CJdpGPFksWAYnUkcXRPF/rSnUHvViFGpLkKntC3p8ZfI6tHoO0nXxKrFh/hQAi/8A5FXIWvtMo1dtNaUY/MuOGYRQ4WzVoaZkW9wHKPWVajCMeBj17mrXeakshdR5LtCkJBUAE0viHrQBOgAF/jHrPxQA8XlW9aADRsQAkAAazvSd3oAkhOtIASSM8igAnUb6I7kAD1HJeNW4y5kARaztms652ZoALja0saS0XtuQA0rQI3EAA2yICABbu5nO70ATU41tbW5Ry252QBPqN9EdyABJLiR42bhzLmE+KAiMEUhHGRRuuedoUHSg+SJKpNcGSnC6FxuaSI/+Ki6FPoTVap1I5sOoo2gtpIAb7dQLqoU1yOOtUfMdjWMHIaG/dFlNQiuRByk+LCqca0d3WJudqkcPeo30RmgAPWdzOd3oA9w3dIA7MZ3BzQAVqN9FvcgAefkvGrllsGSAIruP1nd6AC42NLQbDMbkANM0CJxAAO8BAAus7mLgOtAC1nek7vQB/9k=" alt="..." />
+                            <h4>Instagram</h4>
+                            <p class="text-muted">Chat DM IG admin langsung</p>
+                            <a class="btn btn-dark btn-social mx-2" href="https://www.instagram.com/rfkyyandhka_?igsh=MTF4NXI2emh5ejMxOQ==" aria-label="Rifkyy Shopp Instagram Profile"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-8 mx-auto text-center"><p class="large text-muted"> Dengan mengklik logo wa,google,dan ig maka otomatis akan menuju ke admin</p></div>
+                </div>
+            </div>
+        </section>
+        <!-- Clients-->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer-->
+        <footer class="footer py-4">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-4 text-lg-start">Copyright &copy; Your Website 2023</div>
+                    <div class="col-lg-4 my-3 my-lg-0">
+                        <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                    <div class="col-lg-4 text-lg-end">
+                        <a class="link-dark text-decoration-none me-3" href="#!">Privacy Policy</a>
+                        <a class="link-dark text-decoration-none" href="#!">Terms of Use</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Portfolio Modals-->
+        <!-- Portfolio item 1 modal popup-->
+        <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                    <h2 class="text-uppercase">Project Name</h2>
+                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/1.jpg" alt="..." />
+                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                                    <ul class="list-inline">
+                                        <li>
+                                            <strong>Client:</strong>
+                                            Threads
+                                        </li>
+                                        <li>
+                                            <strong>Category:</strong>
+                                            Illustration
+                                        </li>
+                                    </ul>
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-xmark me-1"></i>
+                                        Close Project
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio item 2 modal popup-->
+        <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                    <h2 class="text-uppercase">Project Name</h2>
+                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/2.jpg" alt="..." />
+                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                                    <ul class="list-inline">
+                                        <li>
+                                            <strong>Client:</strong>
+                                            Explore
+                                        </li>
+                                        <li>
+                                            <strong>Category:</strong>
+                                            Graphic Design
+                                        </li>
+                                    </ul>
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-xmark me-1"></i>
+                                        Close Project
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio item 3 modal popup-->
+        <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                    <h2 class="text-uppercase">Project Name</h2>
+                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/3.jpg" alt="..." />
+                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                                    <ul class="list-inline">
+                                        <li>
+                                            <strong>Client:</strong>
+                                            Finish
+                                        </li>
+                                        <li>
+                                            <strong>Category:</strong>
+                                            Identity
+                                        </li>
+                                    </ul>
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-xmark me-1"></i>
+                                        Close Project
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio item 4 modal popup-->
+        <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                    <h2 class="text-uppercase">Project Name</h2>
+                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/4.jpg" alt="..." />
+                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                                    <ul class="list-inline">
+                                        <li>
+                                            <strong>Client:</strong>
+                                            Lines
+                                        </li>
+                                        <li>
+                                            <strong>Category:</strong>
+                                            Branding
+                                        </li>
+                                    </ul>
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-xmark me-1"></i>
+                                        Close Project
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio item 5 modal popup-->
+        <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                    <h2 class="text-uppercase">Project Name</h2>
+                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/5.jpg" alt="..." />
+                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                                    <ul class="list-inline">
+                                        <li>
+                                            <strong>Client:</strong>
+                                            Southwest
+                                        </li>
+                                        <li>
+                                            <strong>Category:</strong>
+                                            Website Design
+                                        </li>
+                                    </ul>
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-xmark me-1"></i>
+                                        Close Project
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio item 6 modal popup-->
+        <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                    <h2 class="text-uppercase">Project Name</h2>
+                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/6.jpg" alt="..." />
+                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                                    <ul class="list-inline">
+                                        <li>
+                                            <strong>Client:</strong>
+                                            Window
+                                        </li>
+                                        <li>
+                                            <strong>Category:</strong>
+                                            Photography
+                                        </li>
+                                    </ul>
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-xmark me-1"></i>
+                                        Close Project
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <!-- * *                               SB Forms JS                               * *-->
+        <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+    </body>
+</html>
